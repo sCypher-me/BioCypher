@@ -1,6 +1,7 @@
 import { useCallback, useEffect, useRef, useState } from "react"
 import { AnimatePresence, MotionConfig, motion } from "motion/react"
 import { Analytics } from "@vercel/analytics/react"
+import { SpeedInsights } from "@vercel/speed-insights/react"
 import { profile } from "./data/profile"
 import SacredGrid from "./components/SacredGrid"
 import LoadingScreen from "./components/LoadingScreen"
@@ -64,6 +65,7 @@ export default function App() {
     </MusicProvider>
     </MotionConfig>
     <Analytics />
+    <SpeedInsights />
     </>
   )
 }
