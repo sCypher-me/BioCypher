@@ -1,0 +1,5 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://biocypher.tech/sitemap.xml
+Host: biocypher.tech
